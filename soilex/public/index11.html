@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Login Form Design | CodingLearners</title>
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <div class="wrapper">
+         <div class="title"> 
+            Reset Admin 
+         </div> 
+         <form name="frmContact" method="post" action="../mailer.php">
+            <div class="field">
+               <input type="text" required name="email">
+               <label>Email Address</label>
+            </div>
+          <input type="hidden" name="choice" value="admin">
+            <div class="field">
+               <input type="submit" value="Reset">
+            </div>
+         
+         </form>
+      </div>
+   </body> 
+</html>
